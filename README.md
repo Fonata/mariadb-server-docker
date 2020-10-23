@@ -47,3 +47,5 @@ Custom scripts can be mapped as a host volume to /docker-entrypoint-initdb.d for
 - .sh : shell script
 - .sql : sql script
 - .sql.gz : gzip compressed sql script
+
+The database port will only become responsive after all custom scripts were executed successfully.
